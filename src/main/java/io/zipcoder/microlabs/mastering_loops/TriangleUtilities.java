@@ -2,7 +2,7 @@ package io.zipcoder.microlabs.mastering_loops;
 
 public class TriangleUtilities {
 
-    public static String getTriangle(int numberOfRows) {
+    public static String getTriangle(int numberOfRows, int i) {
         return null;
     }
 
@@ -15,6 +15,7 @@ public class TriangleUtilities {
     }
 
     public static String getLargeTriangle() {
-        return null;
+        int numberOfRows = 0;
+        return getTriangle(numberOfRows, 5);
     }
 }
